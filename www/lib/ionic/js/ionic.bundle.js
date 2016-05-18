@@ -53169,7 +53169,7 @@ angular.module('ui.router.state')
 
 (function() {
 /* eslint no-unused-vars:0 */
-var IonicModule = angular.module('ionic', ['ngAnimate', 'ngSanitize', 'ui.router', 'ngIOS9UIWebViewPatch']),
+var IonicModule = angular.module('ionic', ['ngAnimate', 'ngSanitize', 'ui.router', 'ngIOS9UIWebViewPatch'],'ionic.contrib.drawer.vertical'),
   extend = angular.extend,
   forEach = angular.forEach,
   isDefined = angular.isDefined,
